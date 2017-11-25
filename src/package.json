@@ -1,0 +1,36 @@
+{
+  "name": "@capsule9/ajax",
+  "version": "0.0.9",
+  "description": "Capsule9 - ajax",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/capsule9/ajax"
+  },
+  "author": {
+    "name": "Milo Kang",
+    "email": "contact@omiologic.com"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/capsule9/ajax/issues"
+  },
+  "homepage": "https://github.com/capsule9/ajax#readme",
+  "main": "ajax.umd.js",
+  "module": "ajax.js",
+  "jsnext:main": "ajax.js",
+  "typings": "ajax.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^5.0.0",
+    "@angular/common": "^5.0.0",
+    "@angular/http": "^5.0.0",
+    "@angular/core": "^5.0.0",
+    "@capsule9/auth": "^0.0.9",
+    "redux": "^3.7.2",
+    "redux-observable": "^0.17.0",
+    "rxjs": "^5.5.2",
+    "zone.js": "^0.8.14"
+  }
+}
